@@ -1,0 +1,87 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 1.25rem;
+  margin: auto;
+}
+
+.info__img {
+  width: 37.5rem;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.info__text {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #232323;
+  line-height: 1.5;
+}
+
+@media (min-width: 47.9375rem) {
+  .info {
+    max-width: 45rem;
+  }
+}
+
+@media (min-width: 74.375rem) {
+  .info {
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 71.25rem;
+  }
+  .info__p {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+}
+
+@media (min-width: 118.75rem) {
+  .info {
+    max-width: 90rem;
+  }
+}
+
+.find {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin: 2em auto;
+  align-items: center;
+}
+
+.find__title {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.find__map {
+  width: 21.25rem;
+  height: 12.875rem;
+}
+
+@media (min-width: 47.9375rem) {
+  .find__map {
+    width: 41.4375rem;
+    height: 25rem;
+  }
+}
+
+@media (min-width: 74.375rem) {
+  .find__map {
+    height: 31.25rem;
+  }
+}
+
+@media (min-width: 118.75rem) {
+  .find__map {
+    width: 90%;
+  }
+}
